@@ -1,7 +1,7 @@
 package main
 
 import (
-	_ "latihan_golang/database"
+	_ "github.com/AdityaWilldan/Golang-dasar.git/database"
 )
 
 func main() {

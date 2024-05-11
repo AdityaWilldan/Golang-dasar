@@ -2,8 +2,10 @@ package main
 
 import (
 	"fmt"
-	"latihan_golang/coba"
-	"latihan_golang/halah"
+
+	"github.com/AdityaWilldan/Golang-dasar.git/halah"
+
+	"github.com/AdityaWilldan/Golang-dasar.git/coba"
 )
 
 func bubblesort(arr []int) {
@@ -41,7 +43,7 @@ func main() {
 	halah.RegisterUser("admin", blockUser)
 	halah.RegisterUser("wildan", blockUser)
 
-	// nama := "anyink"
-	// pesan := halah.MyFunc(nama)
-	// fmt.Println(pesan)
+	nama := "anyink"
+	pesan := halah.MyFunc(nama)
+	fmt.Println(pesan)
 }

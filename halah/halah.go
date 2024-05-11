@@ -12,6 +12,6 @@ func RegisterUser(name string, blacklist Blacklist) {
 	}
 }
 
-// func MyFunc(name string) string {
-// 	return "hello " + name
-// }
+func MyFunc(name string) string {
+	return "hello " + name
+}
